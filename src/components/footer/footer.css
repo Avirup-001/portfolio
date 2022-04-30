@@ -1,0 +1,72 @@
+footer {
+    background: var(--color-primary);
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--color-bg);
+}
+
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.footer__logo:after{
+    content: "BLACK🤍HEART";
+    transition: all 350ms ease;
+}
+
+.footer__logo:hover:after{
+    color: white;
+    content: "BLACK🖤HEART";
+    transition: all 350ms ease-out;
+}
+
+.links li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.f-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.f-socials a {
+    background: var(--color-bg);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.f-socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.copyright {
+    margin-bottom: 4rem;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .links li{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
