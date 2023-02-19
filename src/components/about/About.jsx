@@ -1,13 +1,15 @@
 import React from 'react'
 import "./about.css"
-import ME from "../../assets/me-about.jpg"
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+// import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/me-about2.jpg"
+// import ME from "../../assets/about-me2.jpg"
+import { FaAward } from 'react-icons/fa'
+// import { FiUsers } from 'react-icons/fi'
+// import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' >
       <h5>Get to know</h5>
       <h2>About Me</h2>
 
@@ -22,25 +24,29 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Years of working</small>
+              <small>6+ Months of working</small>
             </article>
 
-            <article className="about__card">
-              <FiUsers className='about__icon'/>
+            {/* <article className="about__card">
+              <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
-            </article>
+            </article>*/}
 
-            <article className="about__card">
-              <VscFolderLibrary className='about__icon'/>
+            {/* <article className="about__card">
+              <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
               <small>80+ completed</small>
-            </article>
+            </article> */}
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe laudantium atque corporis porro nihil eveniet, vitae, hic beatae eius veritatis adipisci incidunt sint quidem itaque ab ducimus fugit iste?
+            Hi there!👋 My name is Avirup Banik and I am a self taught React / Full Stack developer with 6 months of experience. I have a strong passion for building modern,
+            interactive web applications that provide a seamless user experience. In my time as a developer, I have learned how to effectively use a variety of technologies, including React, Node.js, Express, MongoDB and MySQL, to build full stack solutions.
+            I am constantly learning and staying up-to-date on the latest developments in the web development ecosystem, and I am always looking for new challenges to help me grow as a developer.
+            In my free time, I enjoy experimenting with new technologies and participating
+            in online coding challenges to keep my skills sharp. I am excited to continue my journey as a Full Stack developer and to work on exciting projects that push the boundaries of what is possible on the web.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
