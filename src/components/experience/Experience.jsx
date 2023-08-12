@@ -5,7 +5,7 @@ import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoJavascript } from 'react-icons/io'
 import { GrMysql } from 'react-icons/gr'
-
+import { motion } from 'framer-motion'
 
 
 const Experience = () => {
@@ -14,7 +14,11 @@ const Experience = () => {
       <h5>The skills I have</h5>
       <h2>My Experience</h2>
 
-      <div className="container exp__container">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.7 }}
+        className="container exp__container">
         <div className="exp__frontend">
           <h3>Frontend Development</h3>
           <div className="exp__content">
@@ -129,7 +133,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-      </div>
+      </motion.div>
 
     </section>
   )

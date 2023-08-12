@@ -3,15 +3,31 @@ import "./header.css"
 import CTA from './CTA'
 import HaederSocials from './HaederSocials'
 import ME from '../../assets/me2.jpg'
+import { motion } from "framer-motion"
 
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Avirup Banik</h1>
-        <h5 className="text-light">Full Stack Web Developer</h5>
+        <motion.h5
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+        >
+          Hello I'm
+        </motion.h5>
+        <motion.div />
+        <motion.h1
+          whileHover={{ scale: 0.9 }} whileTap={{ scale: 0.8 }}
+        >Avirup Banik
+        </motion.h1>
+        <motion.h5
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="text-light">
+          Full Stack Web Developer
+        </motion.h5>
         <CTA />
         <HaederSocials />
         <div className="me">

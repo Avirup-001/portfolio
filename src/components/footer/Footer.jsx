@@ -23,7 +23,7 @@ const Footer = () => {
       </div> */}
 
       <div className="copyright">
-        <small>&copy; Crafted by Avirup</small>
+        <small style={{ color: 'black' }}>&copy; Crafted by Avirup</small>
       </div>
     </footer>
   )

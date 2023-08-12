@@ -11,8 +11,8 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-varient: #2c2c6c;
+  --color-bg: #121212;
+  --color-bg-varient: #1E1E1E;
   --color-primary: #4db5ff;
   --color-primary-varient: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -47,7 +47,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ==============GENERAL STYLES============== */
@@ -122,6 +122,40 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+
+.color-picker {
+  position: relative;
+  display: inline-block;
+}
+
+.color-picker input[type="color"] {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 0% 50% 50%;
+  padding: 0;
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.color-picker input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-picker input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 0% 50% 50%;
+  box-shadow: none;
+}
+
+.color-picker input[type="color"]::-moz-color-swatch {
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */
