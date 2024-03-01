@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2b53bab6.css",
-    "main.js": "/portfolio/static/js/main.5c9e5887.js",
+    "main.js": "/portfolio/static/js/main.39ae74ac.js",
     "static/media/me-about2.jpg": "/portfolio/static/media/me-about2.565e259026e42cdd1944.jpg",
     "static/media/amazon-clone.png": "/portfolio/static/media/amazon-clone.60fa305e3084e2b9c6c2.png",
     "static/media/IMG2.png": "/portfolio/static/media/IMG2.6630189fe0943b0f6a30.png",
     "static/media/IMG3.png": "/portfolio/static/media/IMG3.275b40b9e273bdc7adfe.png",
     "static/media/me2.jpg": "/portfolio/static/media/me2.23ba4b2a150354fb96c4.jpg",
-    "static/media/resume_avirup_updated.pdf": "/portfolio/static/media/resume_avirup_updated.fd499f1f7f4ad8e1227b.pdf",
+    "static/media/Resume_Avirup.pdf": "/portfolio/static/media/Resume_Avirup.4dd23c950aa0c4053729.pdf",
     "index.html": "/portfolio/index.html",
     "main.2b53bab6.css.map": "/portfolio/static/css/main.2b53bab6.css.map",
-    "main.5c9e5887.js.map": "/portfolio/static/js/main.5c9e5887.js.map"
+    "main.39ae74ac.js.map": "/portfolio/static/js/main.39ae74ac.js.map"
   },
   "entrypoints": [
     "static/css/main.2b53bab6.css",
-    "static/js/main.5c9e5887.js"
+    "static/js/main.39ae74ac.js"
   ]
 }
