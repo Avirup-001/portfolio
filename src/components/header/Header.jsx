@@ -26,7 +26,7 @@ const Header = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
           className="text-light">
-          Full Stack Web Developer
+          Passionate developer turning caffeine into code and ideas into reality
         </motion.h5>
         <CTA />
         <HaederSocials />
